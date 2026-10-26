@@ -1,1 +1,45 @@
 /* Variables, Dark/Light theme */
+
+/* #12181f ---- rgb(18, 24, 31) */
+
+:root{
+
+    /* Navy Shades */
+    --primary-color--1: #070D17;
+    --primary-color--2: #0F1B2D;
+    --primary-color--3: #16273F;
+    --primary-color--4: #1F3555;
+    --primary-color--5: #2C4A73;
+    --primary-color--6: #5B7BA8;
+    --primary-color--7: #A9BCD6;
+    --primary-color--8: #D6E0EE;
+
+    /* Gold Shades */
+    --secondary-color--1: #7A6119;
+    --secondary-color--2: #B8962C;
+    --secondary-color--3: #D4AF37;
+    --secondary-color--4: #E0C25F;
+    --secondary-color--5: #EBD488;
+    --secondary-color--6: #F3E4B2;
+    --secondary-color--7: #FAF3DC;
+
+    /* Black (Ink) Shades */
+    --tertiary-color--1: #111111;
+    --tertiary-color--2: #1C1C1C;
+    --tertiary-color--3: #2B2B2B;
+    --tertiary-color--4: #444444;
+    --tertiary-color--5: #6B6B6B;
+    --tertiary-color--6: #9A9A9A;
+    --tertiary-color--7: #CFCFCF;
+
+    /* White Shades */
+    --ivory-color: #FBF9F4;
+    --cream-color: #F5F1E8;
+    --pearl-color: #EDE8DB;
+    --mist-color: #F3F5F9;
+    --fog-color: #E4E8EF;
+
+    /* FONTS */
+    --primary-font: "Playfair Display", Georgia, serif;
+    --secondary-font: "Inter", system-ui, sans-serif;
+}

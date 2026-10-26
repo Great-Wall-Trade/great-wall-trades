@@ -1,1 +1,42 @@
 /* Buttons, Cards, Forms, Navbar */
+
+/* 
+=============================
+Loader
+=============================
+*/
+
+#loader {
+    position: fixed;
+    inset: 0;
+    background: var(--pearl-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    z-index: 9999;
+    transition: opacity .5s ease, visibility .5s ease;
+}
+
+#loader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.logo-loader {
+    width: 10rem;
+    height: 10rem;
+}
+
+#loader p {
+    color: var(--tertiary-color--5); 
+    font-family: var(--secondary-font);
+    font-size: 1.05rem;
+    font-weight: 200;
+}
+/* 
+=============================
+End Loader
+=============================
+*/
