@@ -26,3 +26,16 @@ window.addEventListener('load', () => {
 setTimeout(hideLoader, MAX_TIME);
 
 // End Loader
+
+
+// Hamburger menu toggle
+
+const hamburger = document.querySelector('.hamburger');
+// const header__linksBox = document.querySelector(".header__links-box");
+
+hamburger.addEventListener('click', () => {
+    // header__linksBox.classList.toggle('active');
+    hamburger.classList.toggle('active');
+});
+
+// End Hamburger menu toggle

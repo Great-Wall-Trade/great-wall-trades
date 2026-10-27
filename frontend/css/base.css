@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Playfair Display";
-    src: url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.woff2") format("woff2");
+    src: url("../assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.woff2") format("woff2");
     font-weight: 400 900;
     font-style: normal;
     font-display: swap;
@@ -10,8 +10,75 @@
 
 @font-face {
     font-family: "Inter";
-    src: url("../fonts/Inter/Inter-VariableFont_opsz\,wght.woff2") format("woff2");
+    src: url("../assets/fonts/Inter/Inter-VariableFont_opsz\,wght.woff2") format("woff2");
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
 }
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* Converts a 1rem to 10px  */
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--sencondary-font);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--tertiary-color--4);
+    background-color: var(--ivory-color);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.img {
+    width: 100%;
+}
+
+.heading-primary {
+    display: block;
+    margin: 0 auto;
+    font-family: var(--primary-font);
+    text-transform: capitalize;
+    letter-spacing: .04rem;
+    font-weight: 600;
+    font-size: 5rem;
+    color: var(--tertiary-color--1);
+    text-align: center;
+}
+
+.heading-secondary {
+    text-transform: capitalize;
+    letter-spacing: .04rem;
+    font-weight: 600;
+    font-size: 3.5rem;
+    /* color: var(--tertiary-color--3); */
+    text-align: center;
+}
+
+.heading-tertiary {
+    text-transform: capitalize;
+    letter-spacing: .04rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    /* color: var(--tertiary-color--3); */
+    text-align: center;
+}
+

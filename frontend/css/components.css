@@ -2,6 +2,27 @@
 
 /* 
 =============================
+General style
+=============================
+*/
+
+.btn {
+    border-radius: var(--border-radius);
+    border: .2rem solid var(--secondary-color--4);
+    background-color: var(--cream-color);
+    padding: .5rem 1.5rem;
+    text-align: center;
+}
+
+/* 
+=============================
+End General style
+=============================
+*/
+
+
+/* 
+=============================
 Loader
 =============================
 */
@@ -16,7 +37,9 @@ Loader
     justify-content: center;
     gap: 1.5rem;
     z-index: 9999;
-    transition: opacity .5s ease, visibility .5s ease;
+    transition:
+        opacity 0.5s ease,
+        visibility 0.5s ease;
 }
 
 #loader.hidden {
@@ -29,14 +52,246 @@ Loader
     height: 10rem;
 }
 
-#loader p {
-    color: var(--tertiary-color--5); 
+.loader__tagline {
+    color: var(--tertiary-color--5);
     font-family: var(--secondary-font);
-    font-size: 1.05rem;
+    font-size: 1rem;
     font-weight: 200;
+    text-transform: capitalize;
 }
 /* 
 =============================
 End Loader
+=============================
+*/
+
+
+/* 
+=============================
+Header
+=============================
+*/
+
+.header {
+    height: 100vh;
+}
+
+.nav,
+.header__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+.logo-container {
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.header__box {
+    gap: 0 1.5rem;
+}
+
+.btn__language {
+    width: 5rem;
+}
+
+/* 
+=============================
+End Header 
+=============================
+*/
+
+
+/* 
+=============================
+Theme switcher
+=============================
+*/
+
+.theme-switcher {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.theme--light,
+.theme--dark {
+    position: relative;
+    transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.theme--light {
+    top: 50%;
+    left: 50%;
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    background-color: orange;
+    transform: translate(-50%, -50%);
+    animation: rotate .5s ease-out;
+}
+
+.theme--dark {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.sub-sun,
+.moon {
+    position: absolute;
+}
+
+.sub-sun {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: inherit;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+}
+
+.sub-sun:nth-child(1) {
+    top: -20%;
+}
+
+.sub-sun:nth-child(2) {
+    top: 20.5%;
+    left: 116%;
+}
+
+.sub-sun:nth-child(3) {
+    top: 85%;
+    left: 110%;
+}
+
+.sub-sun:nth-child(4) {
+    top: 120%;
+}
+
+.sub-sun:nth-child(5) {
+    top: 85%;
+    left: -10%;
+}
+
+.sub-sun:nth-child(6) {
+    top: 20.5%;
+    left: -13%;
+
+}
+
+.moon {
+    top: 0;
+    left: 0;
+    transform: rotate(-45deg);
+    animation: bounce .4s ease-out;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%)rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%)rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: rotate(-15deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    75% {
+        transform: rotate(-55deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+/* 
+=============================
+End  Theme switcher
+=============================
+*/
+
+
+/* 
+=============================
+Hamburger
+=============================
+*/
+.hamburger {
+    position: relative;
+    height: 2rem;
+    width: 2.3rem;
+    opacity: 0;
+    display: none;
+    transition: all .2s ease-in;
+}
+
+.hamburger > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: .4rem;
+    width: 100%;
+    border-radius: 5rem;
+    background-color:  var(--primary-color--1);
+    transition: all .2s ease-in;
+}
+
+.hamburger.active span {
+    background-color: red;    
+}
+
+.hamburger.hamburger.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg);
+}
+
+.hamburger.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.hamburger.active span:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+}
+
+.hamburger > span:nth-child(1) {
+    top: 36%;
+}
+
+.hamburger > span:nth-child(3) {
+    top: 75%;
+}
+
+
+/* 
+=============================
+End Hamburger
 =============================
 */

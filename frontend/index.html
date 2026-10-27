@@ -4,10 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Favicons -->
-        <link rel="icon" href="./favicons/favicon.ico" sizes="48x48" />
-        <link rel="icon" href="./favicons/icon.svg" type="image/svg+xml" />
-        <link rel="./favicons/apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="./favicons/manifest.webmanifest" href="/manifest.webmanifest" />
+        <link rel="icon" href="./assets/favicons/favicon.ico" sizes="48x48" />
+        <link rel="icon" href="./assets/favicons/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="./assets/favicons/apple-touch-icon.png" />
+        <link rel="manifest" href="./assets/favicons/manifest.webmanifest" />
         <!-- End favicons -->
 
         <!-- Css -->
@@ -16,21 +16,53 @@
         <link rel="stylesheet" href="css/components.css" />
         <!-- End Css -->
         
-        <title>Great Wall</title>
+        <title data-i18n="meta.title">Great Wall</title>
     </head>
     <body>
         <!-- Loader -->
         <div id="loader">
             <div class="logo-loader">
-                <img src="./icons/vector/parts/logo-animated.svg" alt="Loader">
+                <img src="./assets/icons/vector/parts/logo-animated.svg" alt="Loading..." data-i18n-attr="alt:loader.alt">
             </div>
-            <p>Connecting Opportunities. Building Futures</p>
+            <p class="loader__tagline" data-i18n="loader.tagline">Connecting opportunities. Building futures</p>
         </div>
         <!-- End Loader -->
         
-        So who is there 
+
+        <header class="header" id="home">
+            <nav class="nav">
+                <div class="logo-container">
+                    <a href="./index.html">
+                        <img src="./assets/icons/vector/logo-navy-gold.svg" alt="Logo" class="logo">
+                    </a>
+                </div>
+
+                <div class="header__box">
+                    <button class="btn btn__language">
+                        <!--! should make it dynamical, display FR or EN depending on the user's language choice  -->
+                    </button>
+
+                    <div class="theme-switcher" id="theme-toggle">
+                        <!-- Dynamically switch between theme icon depending on the current theme -->
+                    </div>
+
+                    <div class="hamburger">
+                        <span></span>
+
+                        <span></span>
+
+                        <span></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <section class="test" data-i18n="test.text"></section>
 
         <!-- JS  -->
-        <script src="./js/vendor.js"></script>
+        <script src="./js/i18n.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/theme.js"></script>
     </body>
 </html>

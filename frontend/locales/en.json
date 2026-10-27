@@ -1,0 +1,17 @@
+
+{
+    "meta" : {"title" : "Great Wall"},
+
+    "loader" : {
+        "alt" : "Loading...",
+        "tagline" : "Connecting Opportunities. Building Futures"
+    },
+
+    "header" : {
+        
+    },
+
+    "test" : {
+        "text" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro eum nostrum repellendus doloribus vero, libero aperiam aliquid! Cumque quae voluptates dolorum laboriosam, enim illo quis voluptatibus, minus harum nam libero?"
+    }
+}

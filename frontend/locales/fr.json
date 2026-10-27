@@ -1,0 +1,17 @@
+
+{
+    "meta" : {"title" : "Great Wall"},
+
+    "loader" : {
+        "alt" : "Chargement...",
+        "tagline" : "Connecte les opportunités. Bâtir l'avenir."
+    },
+
+    "header" : {
+        
+    },
+
+    "test" : {
+        "text" : "lorem24"
+    }
+}
