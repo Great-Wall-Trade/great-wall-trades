@@ -10,6 +10,7 @@ General style
     border-radius: var(--border-radius);
     border: .2rem solid var(--secondary-color--4);
     background-color: var(--cream-color);
+    color: var(--tertiary-color--4);
     padding: .5rem 1.5rem;
     text-align: center;
 }
