@@ -4,11 +4,20 @@
 
     "loader" : {
         "alt" : "Loading...",
+
         "tagline" : "Connecting Opportunities. Building Futures"
     },
 
     "header" : {
-        
+        "eyebrow" : "Chinese university scholarships for African students.",
+
+        "heading--main" : "Your scholarship in China starts here!",
+
+        "heading--sub" : "We guide you from application to enrollment: documents, university submissions, and visa support, with every step tracked online.",
+
+        "btn--apply" : "Apply now",
+
+        "btn--how-it-works" : "See how it works"
     },
 
     "test" : {

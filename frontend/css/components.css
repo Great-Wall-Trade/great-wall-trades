@@ -9,11 +9,60 @@ General style
 .btn {
     border-radius: var(--border-radius);
     border: .2rem solid var(--secondary-color--4);
-    background-color: var(--cream-color);
+    background-color: transparent;
     color: var(--tertiary-color--4);
     padding: .5rem 1.5rem;
     text-align: center;
+    text-transform: capitalize;
 }
+
+.btn__language {
+    width: 5rem;
+    color: var(--fog-color);
+}
+
+.btn__apply-now,
+.btn__how-it-works {
+    border-radius: .9rem;
+    font-weight: 900;
+}
+
+.btn__apply-now {
+    color: var(--tertiary-color--4);
+    background-color: var(--secondary-color--4);
+    text-transform: uppercase;
+}
+
+.btn__how-it-works {
+    border-color: var(--secondary-color--4);
+    border-width: .16rem;
+    color: var(--secondary-color--4);
+}
+
+.eyebrow{
+    /* width: fit-content; */
+    color: var(--primary-color--4);
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    font-weight: 500;
+}
+
+.header__eyebrow {
+    color: var(--white-color);
+}
+
+.underline {
+    display: block;
+    width: 85%;
+    height: .2rem;
+    background-color: var(--primary-color--4);
+}
+
+.header__underline {
+    background-color: var(--secondary-color--8);
+}
+
 
 /* 
 =============================
@@ -63,54 +112,6 @@ Loader
 /* 
 =============================
 End Loader
-=============================
-*/
-
-
-/* 
-=============================
-Header
-=============================
-*/
-
-.header {
-    height: 100vh;
-}
-
-.nav,
-.header__box {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav {
-    border: 1px solid red;
-    padding: 1rem;
-}
-
-.logo-container {
-    width: 3rem;
-    height: 3rem;
-}
-
-.logo {
-    width: 100%;
-    height: 100%;
-}
-
-.header__box {
-    gap: 0 1.5rem;
-}
-
-.btn__language {
-    width: 5rem;
-}
-
-/* 
-=============================
-End Header 
 =============================
 */
 

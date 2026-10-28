@@ -8,7 +8,7 @@
     --primary-color--1: #070D17;
     --primary-color--2: #0F1B2D;
     --primary-color--3: #16273F;
-    --primary-color--4: #1F3555;
+    --primary-color--4: #1f3555;
     --primary-color--5: #2C4A73;
     --primary-color--6: #5B7BA8;
     --primary-color--7: #A9BCD6;
@@ -26,7 +26,7 @@
 
     /* Black (Ink) Shades */
     --tertiary-color--1: #111111; /* Headings */
-    --tertiary-color--2: #1C1C1C;
+    --tertiary-color--2: rgb(28, 28, 28);
     --tertiary-color--3: #2B2B2B;
     --tertiary-color--4: #444444; 
     --tertiary-color--5: #6B6B6B;
@@ -39,9 +39,10 @@
     --pearl-color: #EDE8DB;
     --mist-color: #F3F5F9;
     --fog-color: #E4E8EF;
+    --white-color: #FFFFFF;
 
     /* Other colors */
-    --error-color: #ff0000;
+    --error-color: #ff0000
     --success-color: #00fd00;
 
     /* FONTS */
