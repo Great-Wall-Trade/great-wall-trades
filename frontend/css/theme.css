@@ -1,6 +1,5 @@
 /* Variables, Dark/Light theme */
 
-/* #12181f ---- rgb(18, 24, 31) */
 
 :root{
 
@@ -26,8 +25,8 @@
 
     /* Black (Ink) Shades */
     --tertiary-color--1: #111111; /* Headings */
-    --tertiary-color--2: rgb(28, 28, 28);
-    --tertiary-color--3: #2B2B2B;
+    --tertiary-color--2: #1c1c1c;
+    --tertiary-color--3: #2b2b2b;
     --tertiary-color--4: #444444; 
     --tertiary-color--5: #6B6B6B;
     --tertiary-color--6: #9A9A9A;
@@ -40,6 +39,16 @@
     --mist-color: #F3F5F9;
     --fog-color: #E4E8EF;
     --white-color: #FFFFFF;
+
+    /* bg colors */
+    --bg-color-light--1: #FBF9F4;
+    --bg-color-light--2: #F5F1E8;
+    --bg-color--light--3: #EDE8DB;
+
+    --bg-color-dark--1: #070D17;
+    --bg-color-dark--2: #0F1B2D;
+    --bg-color-dark--3: #111111;
+    --bg-color-dark--4: #12181f;
 
     /* Other colors */
     --error-color: #ff0000

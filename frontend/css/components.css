@@ -14,6 +14,7 @@ General style
     padding: .5rem 1.5rem;
     text-align: center;
     text-transform: capitalize;
+    font-family: var(--primary-font);
 }
 
 .btn__language {
@@ -31,6 +32,7 @@ General style
     color: var(--tertiary-color--4);
     background-color: var(--secondary-color--4);
     text-transform: uppercase;
+    margin-right: 2rem;
 }
 
 .btn__how-it-works {
@@ -43,24 +45,32 @@ General style
     /* width: fit-content; */
     color: var(--primary-color--4);
     text-transform: uppercase;
-    font-size: .8rem;
     letter-spacing: .1rem;
     font-weight: 500;
 }
 
 .header__eyebrow {
+    font-family: var(--primary-font);
+    width: fit-content;
+    font-size: .95rem;
     color: var(--white-color);
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: 0 auto;
 }
 
 .underline {
     display: block;
-    width: 85%;
     height: .2rem;
     background-color: var(--primary-color--4);
 }
 
 .header__underline {
     background-color: var(--secondary-color--8);
+    margin: 0 auto;
+    width: 75%;
+
 }
 
 

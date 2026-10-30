@@ -2,7 +2,7 @@
 // Loader
 
 const loader = document.getElementById('loader');
-const MIN_TIME = 500;   // loader shows at least 0.5s
+const MIN_TIME = 1500;   // loader shows at least 0.5s
 const MAX_TIME = 8000;  // loader hides after 8s no matter what
 
 const startTime = Date.now();

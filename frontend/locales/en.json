@@ -20,7 +20,17 @@
         "btn--how-it-works" : "See how it works"
     },
 
-    "test" : {
+    "trust-line" : {
+        "1" : "integrity",
+
+        "2" : "excellence",
+
+        "3" : "innovation",
+
+        "4" : "trust"
+    },
+
+    "how-it-works" : {
         "text" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro eum nostrum repellendus doloribus vero, libero aperiam aliquid! Cumque quae voluptates dolorum laboriosam, enim illo quis voluptatibus, minus harum nam libero?"
     }
 }
