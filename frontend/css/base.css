@@ -165,30 +165,24 @@ Header
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    border: .1rem solid red;
-    background-color: red;
 }
 
 .nav {
     padding: 1rem;
-    border: .1rem solid yellow;
 }
 
 .logo-container {
-    /* width: 5rem; */
-    background-color: greenyellow;
+    width: 12rem;
     height: 4rem;
 }
 
-.logo-container > a {
-    background-color: blue;
+/* .logo-container > a {
     display: inline-block;
     height: 100%;
     width: 100%;
-}
+} */
 
 .logo {
-    background-color: yellow;
     width: 100%;
     height: 100%;
 }
