@@ -31,8 +31,8 @@ html {
 }
 
 body {
-    box-sizing: border-box;
     font-family: var(--sencondary-font);
+    box-sizing: border-box;
     font-size: 1.6rem;
     line-height: 1.5;
     color: var(--tertiary-color--4);
@@ -55,12 +55,13 @@ a {
 .heading-primary {
     display: block;
     margin: 0 auto;
+    margin-top: 1rem;
     font-family: var(--primary-font);
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: .04rem;
     font-weight: 600;
-    font-size: 5rem;
-    color: var(--tertiary-color--1);
+    font-size: 2.3rem;
+    color: var(--primary-color--3);
     text-align: center;
 }
 
@@ -68,18 +69,29 @@ a {
     text-transform: capitalize;
     letter-spacing: .04rem;
     font-weight: 600;
-    font-size: 3.5rem;
+    font-size: 2.3rem;
     /* color: var(--tertiary-color--3); */
     text-align: center;
 }
 
 .heading-tertiary {
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: .04rem;
-    font-weight: 600;
-    font-size: 2.5rem;
-    /* color: var(--tertiary-color--3); */
-    text-align: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: var(--tertiary-color--1);
+    /* text-align: center; */
+}
+
+.content {
+    max-width: 130rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.heading-container {
+    width: 75%;
+    margin: 0 auto;
 }
 
 
@@ -208,9 +220,23 @@ Header
     margin-top: 5rem;
 }
 
+/* 
+=============================
+End Header 
+=============================
+*/
+
+
+/* 
+=============================
+Trust line 
+=============================
+*/
+
+
 .section-trust-line {
     background-color: var(--pearl-color);
-    height: 5rem;
+    height: 4.5rem;
 }
 
 .trust-line-container {
@@ -228,15 +254,122 @@ Header
     text-transform: uppercase;
     align-content: center;
     font-size: .7rem;
-    font-family: var(--primary-font);
-    font-weight: 800;
+    font-family: var(--secondary-font);
+    font-weight: 900;
     letter-spacing: .2rem;
     color: var(--tertiary-color--1);
 }
 
 /* 
 =============================
-End Header 
+End Trust line 
+=============================
+*/
+
+/* 
+=============================
+How it works
+=============================
+*/
+
+.how-it-works--steps {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.step {
+    position: relative;
+    border-top: .2rem dashed var(--secondary-color--8);
+    padding: 4rem 0;
+}
+
+.step:nth-child(odd) {
+    margin-left: 2rem;
+    border-top-right-radius: 2rem;
+    border-right: .2rem dashed var(--secondary-color--8);
+    border-bottom-right-radius: 1.8rem;
+    /* padding-left: 1rem; */
+    padding-right: 1rem;
+}
+
+.step:nth-child(even) {
+    border-top-left-radius: 2rem;
+    border-left: .2rem dashed var(--secondary-color--8);
+    border-bottom-left-radius: 2rem;
+    margin-right: 1.8rem;
+    padding-left: 3rem;
+}
+
+.step:nth-child(1) {
+    border-top: none;
+    border-top-right-radius: 0;
+}
+
+.step:nth-child(5) {
+    border-bottom-right-radius: 0;
+}
+
+.step--number {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    background-color: var(--secondary-color--8);
+    color: var(--white-color);
+    font-weight: 900;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.step:nth-child(odd) > .step--number {
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.step:nth-child(even) > .step--number {
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.step--text {
+    width: 95%;
+    /* margin: 0 auto; */
+}
+
+.step--text > .heading-tertiary {
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    color: var(--secondary-color--1);
+    margin-bottom: 1.5rem;
+    letter-spacing: .1rem;
+}
+
+.step--paragraph {
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.how-it-works__tracker-callout {
+    width: 90%;
+    margin: 5rem auto;
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-weight: 300;
+}
+
+.section-how-it-works a {
+    display: block;
+    width: fit-content;
+    margin: 5rem auto;
+}
+
+/* 
+=============================
+End How it works
 =============================
 */
 

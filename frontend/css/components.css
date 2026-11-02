@@ -35,6 +35,14 @@ General style
     margin-right: 2rem;
 }
 
+.section-how-it-works .btn__apply-now {
+    color: var(--secondary-color--3);
+    background-color: var(--primary-color--3);
+    border-color: inherit;
+    font-family: var(--secondary-font);
+    padding: 1rem 1.5rem;
+}
+
 .btn__how-it-works {
     border-color: var(--secondary-color--4);
     border-width: .16rem;
@@ -43,7 +51,6 @@ General style
 
 .eyebrow{
     /* width: fit-content; */
-    color: var(--primary-color--4);
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-weight: 500;
@@ -60,17 +67,30 @@ General style
     margin: 0 auto;
 }
 
+.heading__eyebrow {
+    font-family: var(--secondary-font);
+    width: fit-content;
+    font-size: .95rem;
+    color: var(--tertiary-color--5);
+    display: block;
+    font-weight: 900;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    text-align: center;
+    margin: 0 auto;
+}
+
 .underline {
     display: block;
     height: .2rem;
-    background-color: var(--primary-color--4);
+    background-color: var(--tertiary-color--5);
+    width: 50%;
+    margin: 0 auto;
 }
 
 .header__underline {
+    height: .2rem;
     background-color: var(--secondary-color--8);
-    margin: 0 auto;
     width: 75%;
-
 }
 
 
