@@ -28,6 +28,7 @@
 html {
     font-size: 62.5%; /* Converts a 1rem to 10px  */
     scroll-behavior: smooth;
+    font-family: var(--sencondary-font);
 }
 
 body {
@@ -84,8 +85,11 @@ a {
 }
 
 .content {
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    font-size: 1.5rem;
     max-width: 130rem;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     margin: 0 auto;
 }
 
@@ -376,6 +380,54 @@ How it works
 /* 
 =============================
 End How it works
+=============================
+*/
+
+
+/* 
+=============================
+Service
+=============================
+*/
+
+.section-services {
+    background-color: var(--mist-color);
+    padding: 2rem 0;
+}
+
+.services__lists {
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.services__intro {
+    font-size: 1.5rem;
+}
+
+.services__lists > li {
+    list-style-type: disc;
+    margin-bottom: 1rem;
+}
+
+.services__lists h5,
+.services__lists p {
+    display: inline;
+    font-size: 1.3rem;
+}
+
+.services__lists h5 {
+    /* text-transform: uppercase; */
+    letter-spacing: .05rem;
+    color: var(--primary-color--6);
+    font-weight: 500;
+}
+
+.services__lists p {
+}
+
+/* 
+=============================
+End Service
 =============================
 */
 
