@@ -50,20 +50,28 @@ function updateSwitcher() {
 }
 
 // 5. Load a language and apply it
+async function loadJSON(lang, name) {
+    const res = await fetch(`./locales/${lang}/${name}.json`);
+    if (!res.ok) throw new Error(`Could not load ${lang}/${name}.json`);
+    return res.json();
+}
+
 async function setLanguage(lang) {
+    const page = document.body.dataset.page; // "home", "scholarships", ...
+    const names = page ? ['common', page] : ['common'];
+
     try {
-        const res = await fetch(`./locales/${lang}.json`);
-        if (!res.ok) throw new Error(`Could not load ${lang}.json`);
-        dict = await res.json();
+        const files = await Promise.all(names.map((n) => loadJSON(lang, n)));
+        dict = Object.assign({}, ...files);   // merge into one lookup object
     } catch (err) {
         console.error(err);
         if (lang !== DEFAULT_LANG) return setLanguage(DEFAULT_LANG);
-        return; // even English failed: leave the HTML fallback text as is
+        return;
     }
 
     currentLang = lang;
     document.documentElement.lang = lang;
-    try { localStorage.setItem(STORAGE_KEY, lang); } catch { }
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch {}
 
     applyTranslations();
     updateSwitcher();

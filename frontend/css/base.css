@@ -341,7 +341,6 @@ How it works
 
 .step--text {
     width: 95%;
-    /* margin: 0 auto; */
 }
 
 .step--text > .heading-tertiary {
@@ -351,6 +350,7 @@ How it works
     color: var(--secondary-color--1);
     margin-bottom: 1.5rem;
     letter-spacing: .1rem;
+    text-align: center;
 }
 
 .step--paragraph {

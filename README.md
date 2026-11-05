@@ -1,0 +1,1 @@
+files to delete from the git repo, (en.json, fr.json and all the unused pictures)

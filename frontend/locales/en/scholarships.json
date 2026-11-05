@@ -1,0 +1,94 @@
+
+{
+    "scholarships" : {
+        "meta" : {
+            "description" : "Apply for a Chinese university scholarship with one team handling every step: documents, applications, admission, visa support and enrollment."
+        },
+
+        "header" : {
+            "eyebrow" : "Chinese university scholarships for African students.",
+
+            "heading--main" : "Your scholarship in China starts here!",
+
+            "heading--sub" : "We guide you from application to enrollment: documents, university submissions, and visa support, with every step tracked online.",
+
+            "btn--apply" : "Apply now",
+
+            "btn--how-it-works" : "See how it works"
+        },
+
+        "trust-line" : {
+            "1" : "integrity",
+
+            "2" : "excellence",
+
+            "3" : "innovation",
+
+            "4" : "trust"
+        },
+
+        "how-it-works" : {
+            "eyebrow" : "5 clear steps from your form to your first day on campus.",
+
+            "heading" : "How it works",
+
+            "steps" : "",
+            "step--1" : "1",
+            "step__1--title" : "Apply",
+            "step__1--paragraph" : "Will in our online application form and upload your documents. You will get confirmation right away, and your personal tracker opens.",
+            
+            "step--2" : "2",
+            "step__2--title" : "We review your documents",
+            "step__2--paragraph" : "Our team checks every documents. If something needs fixing, you will be notified exactly what and why, so nothing delays your application.",
+            
+            "step--3" : "3",
+            "step__3--title" : "We submit your documents",
+            "step__3--paragraph" : "Once your file is complete, we submit it to the university or scholarship council and follow up while they review it.",
+            
+            "step--4" : "4",
+            "step__4--title" : "You receive your decision",
+            "step__4--paragraph" : "Your are notified as soon as a decision arrives. If you are admitted, we help you get your offer or admission notice.",
+            
+            "step--5" : "5",
+            "step__5--title" : "visa and enrollment",
+            "step__5--paragraph" : "We support you thorugh your visa application until your enrollment is confirmed and you are ready to travel.",
+
+            "tracker-callout" : "Know where you stand at every stage. Follow your application online, from \"Application submitted\" to \"Enrollement confirmed\"",
+
+            "btn__apply" : "Start your application"
+        },
+
+        "services" : {
+            "eyebrow" : "Scholarship applications, handled from start to finish.",
+
+            "heading" : "One team. Every step",
+
+            "intro" : "Applying to a Chinese university on your own means unfamiliar portals, strict document rules, and deadlines that don’t wait. We take care of the process with you, so you can focus on being ready to study.",
+
+            "What-is-included" : {
+                "bullet__title--1" : "Guidance on universities and programs:",
+                "bullet__paragraph--1" : "We help you find the options that fit your level and goals.", 
+
+                "bullet__title--2" : "Document review:",
+                "bullet__paragraph--2" : "We check every document and tell you exactly what to fix before you submit.",
+
+                "bullet__title--3" : "Application submission:",
+                "bullet__paragraph--3" : "We submit your complete file and follow up with the university or scholarship council.",
+
+                "bullet__title--4" : "Visa and enrollment support:",
+                "bullet__paragraph--4" : "We stay with you until your enrollment is confirmed.",
+
+                "bullet__title--5" : "Online tracking:",
+                "bullet__paragraph--5" : "Follow every stage of your application from your personal dashboard."
+            },
+
+            "who-it-is-for" : {
+                "title" : "Who is it for?",
+
+                "paragraph" : "Anyone who wants to study in China, wherever you are from. Whether you are applying for a bachelor's, master's, or doctoral program, we will guide you through every step."
+            },
+
+            "btn__application" : "Start your application"
+        }
+    }
+}
